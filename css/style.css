@@ -78,6 +78,7 @@ body{
 	font-weight: 700;
 	border: none;
 	border-radius: 50px;
+	color: #fff;
 }
 
 
@@ -142,7 +143,7 @@ header{
 /*introduction*/
 .introduction{
 	position: relative;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 
 .introduction__description{
@@ -160,11 +161,33 @@ header{
 
 .introduction_img{
 	position: absolute;
-	bottom:0;
-	right: -10%;
+	bottom: -20%;
+    right: -15%;
 	z-index: 0;
 }
 
 .introduction__button{
 	background-color: #9C69E2;
+}
+
+/*we-are*/
+
+.we-are{
+	position: relative;
+	justify-content: flex-end;
+	padding: 125px 92px;
+	background: rgba(240, 99, 184, 0.15);
+	border-radius: 50px;
+}
+
+.we-are__right-panel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.we-are__img{
+	position: absolute;
+	top: 0;
+	left:0;
 }
